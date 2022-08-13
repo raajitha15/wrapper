@@ -1,0 +1,44 @@
+//write a program to convert primitive type data into wrapper class object
+
+class Wapper1 
+{
+	public static void main(String[] args) 
+	{
+		//primitive data type
+		byte bValue=10;
+		short shValue=20;
+		int iValue=30;
+		long lValue=40L;
+		float flValue=50f;
+		double duValue=60.0;
+		char chValue='a';
+		boolean boValue=true;
+		//converting into wrapper classes
+		Byte x=bValue;
+		Short a=shValue;
+		Integer b=iValue;
+		Long c=lValue;
+		Float d=flValue;
+		Double e=duValue;
+		Character f=chValue; 
+		Boolean g=boValue;
+		System.out.println(x);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		byte rbValue=x;
+		short rshValue=a;
+		System.out.println(x);
+		System.out.println(a);
+	}
+}
+		
+
+
+		
+
+
