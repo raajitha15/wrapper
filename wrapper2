@@ -1,0 +1,18 @@
+class Wrapper2 
+{
+	public static void main(String[] args) 
+	{
+		byte b1=10;
+		byte b2=30;
+		Byte a=b1;
+		Byte b=b2;
+		int res=b1+b2;
+		int res1=b1-b2;
+		int res2=b1*b2;
+		int res3=b1/b2;
+		System.out.println(res);
+		System.out.println(res1);
+		System.out.println(res2);
+		System.out.println(res3);
+	}
+}
