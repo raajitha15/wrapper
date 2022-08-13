@@ -1,0 +1,14 @@
+class Wrapper3 
+{
+	public static void m1(Integer i)
+	{
+		System.out.println("m1 is excecuted");
+	}
+	public static void main(String[] args) 
+	{
+		Integer i=10;
+		m1(i);
+		System.out.println(i);
+		
+	}
+}
